@@ -19,7 +19,8 @@ class Go < Formula
   option "without-vet", "vet will not be installed for you"
 
   resource "gotools" do
-    url "https://go.googlesource.com/tools.git",
+    #url "https://go.googlesource.com/tools.git",
+    url "https://github.com/golang/tools.git",
     :revision => "d02228d1857b9f49cd0252788516ff5584266eb6"
   end
 
